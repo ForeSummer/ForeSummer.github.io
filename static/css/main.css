@@ -75,7 +75,7 @@ li {
 	padding-right: 5%;
 	border-top: 2px #aaaaaa solid;
 	padding-top: 120px;
-	font-family: intro;
+	font-family: intro, Helvetica, "Hiragino Sans GB",Microsoft YaHei;
 	font-size: 35px;
 	line-height: 65px;
 	margin-bottom: 200px;
@@ -88,7 +88,7 @@ li {
 	padding-right: 5%;
 	border-top: 2px #aaaaaa solid;
 	padding-top: 80px;
-	font-family: intro;
+	font-family: intro, Helvetica, "Hiragino Sans GB",Microsoft YaHei;
 	font-size: 35px;
 	line-height: 65px;
 	margin-bottom: 100px;
