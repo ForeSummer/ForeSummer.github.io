@@ -44,7 +44,8 @@ module.exports = function(grunt) {
                     'index.html': 'dist/index.html',     // 'destination': 'source'
                     'works.html': 'dist/works.html',
                     'info.html': 'dist/info.html',
-                    'blogs.html': 'dist/blogs.html'
+                    'blogs.html': 'dist/blogs.html',
+                    'blog1.html': 'dist/blog1.html'
                 }
             }
         }

@@ -11,7 +11,7 @@ body {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: lato;
+    font-family: lato, Helvetica, "Hiragino Sans GB",Microsoft YaHei;
     vertical-align: baseline;
 }
 a {
@@ -210,6 +210,10 @@ li {
 	font-size: 28px;
 	color: #4183C4;
 }
+.title a {
+	color: #4183C4;
+	font-weight: bold;
+}
 .time {
 	font-size: 20px;
 	font-weight: lighter;
@@ -250,7 +254,18 @@ li {
 	margin-right:3%;
 	margin-left:3%;
 }
-
+.essay-container {
+	margin:auto;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 800px;
+	
+}
+.essay-container p {
+	margin-top:15px;
+	margin-bottom:15px;
+}
 
 /*for mobile phone device*/
 @media (min-width: 319px) and (max-width: 500px) {
@@ -378,6 +393,12 @@ li {
 	.detail {
 		padding-left: 20px;
 		font-size: 16px;
+	}
+	.essay-container {
+		width: 300px;
+		font-size: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 }
 
@@ -508,5 +529,8 @@ li {
 	.detail {
 		padding-left: 40px;
 		font-size: 25px;
+	}
+	.essay-container {
+		width: 600px;
 	}
 }
