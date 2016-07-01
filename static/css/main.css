@@ -1,0 +1,512 @@
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato.woff2);
+}
+@font-face {
+    font-family: intro;
+    src: url(../fonts/intro.woff2);
+}
+body {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: lato;
+    vertical-align: baseline;
+}
+a {
+	text-decoration: none;
+}
+i {
+	color: #999999;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li {
+	display:inline;
+}
+.intro a i:hover {
+	color: #bc4148;
+	-webkit-transition: color 0.5s linear; 
+ 	transition: color 0.5s linear; 
+}
+.github a:hover {
+	color: #bc4148;
+	-webkit-transition: color 0.5s linear; 
+ 	transition: color 0.5s linear; 
+}
+.header a {
+	font-weight: 600;
+	font-size: 25px;
+	color: #aaaaaa;
+}
+.header a:hover {
+	color: black;
+	-webkit-transition: color 0.5s linear; 
+ 	transition: color 0.5s linear; 
+}
+
+.logo-warpper {
+	position: absolute;
+    left: 0;
+    top: 0;
+    margin-top:35px;
+    margin-left: 70px;
+}
+.nav-warpper {
+	position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-right: 70px;
+}
+.links {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.intro {
+	margin-top: 100px;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-top: 2px #aaaaaa solid;
+	padding-top: 120px;
+	font-family: intro;
+	font-size: 35px;
+	line-height: 65px;
+	margin-bottom: 200px;
+}
+.intro-d {
+	margin-top: 100px;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-top: 2px #aaaaaa solid;
+	padding-top: 80px;
+	font-family: intro;
+	font-size: 35px;
+	line-height: 65px;
+	margin-bottom: 100px;
+}
+.mainwarpper {
+	width: 100%;
+	height: 450px;
+	border: 1px #aaaaaa solid;
+	font-family: intro;
+}
+.content {
+	width: 50%;
+	text-align: center;
+}
+.text {
+	width: 100%;
+	font-size: 35px;
+	margin-top: 90px;
+	line-height: 65px;
+	margin-bottom: 60px;
+}
+#right {
+	margin-left: 49%;
+}
+.button a{
+	margin: auto;
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: white;
+	color: black;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.button a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button a span:after {
+  content: ' >>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button a:hover span {
+  padding-right: 25px;
+}
+.button a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#works {
+	background: url(../imgs/banner.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+#works1 {
+	background: url(../imgs/banner.jpg) no-repeat;
+	background-size: 100% 200%;
+	height: 250px;
+	color: white;
+}
+#blogs {
+	background: url(../imgs/banner2.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+#blogs1 {
+	background: url(../imgs/banner2.jpg) no-repeat;
+	background-size: 100% 200%;
+	color: white;
+	height: 250px;
+}
+#infos {
+	background: url(../imgs/banner4.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: black;
+}
+.footer {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.github {
+	margin-bottom: 70px;
+}
+.github a {
+	font-size: 35px;
+	color: #aaaaaa;
+}
+.copyright {
+	border-top: 1px #aaaaaa solid;
+	padding-top: 40px;
+	font-size: 18px;
+	line-height: 27px;
+}
+.subtitle {
+	text-align: center;
+	font-size: 45px;
+	margin-top: 100px;
+}
+.list-container {
+	width:1200px;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.list {
+	margin-left: 25%;
+	margin-right: 25%;
+	border-bottom: 1px #aaaaaa solid;
+}
+.title {
+	font-size: 28px;
+	color: #4183C4;
+}
+.time {
+	font-size: 20px;
+	font-weight: lighter;
+}
+.img-container {
+	margin: auto;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	width: 300px;
+	height: 300px;
+
+}
+.img-container img{
+	border-radius: 150px; 
+	width: 100%;
+	height: 100%;
+}
+.info-container {
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+.info {
+	text-align: left;
+	margin: auto;
+	width: 600px;
+}
+.item {
+	color: #4183C4;
+	font-size: 30px;
+}
+.detail {
+	padding-left: 50px;
+	font-size: 26px;
+}
+.divider {
+	margin-right:3%;
+	margin-left:3%;
+}
+
+
+/*for mobile phone device*/
+@media (min-width: 319px) and (max-width: 500px) {
+	.header a {
+		font-size: 15px;
+	}
+	.logo-warpper {
+	    margin-top: 20px;
+	    margin-left: 20px;
+	}
+	.nav-warpper {
+	    margin-top: 20px;
+	    margin-right: 20px;
+	}
+	.links {
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	.intro {
+		margin-top: 60px;
+		padding-top: 25px;
+		font-size: 20px;
+		line-height: 35px;
+		margin-bottom: 70px;
+	}
+	.intro-d {
+		margin-top: 60px;
+		padding-top: 25px;
+		font-size: 25px;
+		line-height: 35px;
+		margin-bottom: 70px;
+	}
+	.mainwarpper {
+		width: 100%;
+		height: 150px;
+	}
+	#works1 {
+		background-size: 100% 100%;
+		height: 150px;
+	}
+	#blogs1 {
+		background-size: 100% 100%;
+		height: 150px;
+	}
+	.content {
+		width: 100%;
+		text-align: center;
+	}
+	#right {
+		margin-left: 0;
+	}
+	.text {
+		font-size: 15px;
+		margin-top: 30px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.button a{
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-radius: 4px;
+		font-size: 15px;
+	}
+	.footer {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	.github {
+		margin-bottom: 50px;
+	}
+	.github a {
+		font-size: 25px;
+	}
+	.copyright {
+		padding-top: 40px;
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.subtitle {
+		font-size: 25px;
+		margin-top: 65px;
+	}
+	.list-container {
+		width: 320px;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	.list {
+		width: 250px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin: auto;
+	}
+	.title {
+		font-size: 16px;
+	}
+	.time {
+		font-size: 12px;
+	}
+	.img-container {
+		margin-bottom: 50px;
+		margin-top: 40px;
+		width: 150px;
+		height: 150px;
+
+	}
+	.img-container img{
+		border-radius: 75px; 
+	}
+	.info-container {
+		margin: auto;
+		width: 320px;
+		margin-bottom: 50px;
+	}
+	.info {
+		text-align: left;
+		margin: auto;
+		width: 250px;
+	}
+	.item {
+		font-size: 20px;
+	}
+	.detail {
+		padding-left: 20px;
+		font-size: 16px;
+	}
+}
+
+/*for ipad*/
+
+@media (min-width: 500px) and (max-width: 900px) {
+	.header a {
+		font-size: 25px;
+	}
+	.logo-warpper {
+	    margin-top: 40px;
+	    margin-left: 40px;
+	}
+	.nav-warpper {
+	    margin-top: 40px;
+	    margin-right: 40px;
+	}
+	.links {
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	.intro {
+		margin-top: 110px;
+		padding-top: 35px;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 70px;
+	}
+	.intro-d {
+		margin-top: 110px;
+		padding-top: 35px;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 70px;
+	}
+	.mainwarpper {
+		width: 100%;
+		height: 300px;
+	}
+	#works1 {
+		background-size: 100% 100%;
+		height: 250px;
+	}
+	#blogs1 {
+		background-size: 100% 100%;
+		height: 250px;
+	}
+	.content {
+		width: 100%;
+		text-align: center;
+	}
+	#right {
+		margin-left: 0;
+	}
+	.text {
+		font-size: 35px;
+		margin-top: 50px;
+		line-height: 45px;
+		margin-bottom: 30px;
+	}
+	.button a{
+		padding-left: 18px;
+		padding-right: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 6px;
+		font-size: 28px;
+	}
+	.footer {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	.github {
+		margin-bottom: 50px;
+	}
+	.github a {
+		font-size: 35px;
+	}
+	.copyright {
+		padding-top: 40px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.subtitle {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.list-container {
+		width: 650px;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	.list {
+		width: 650px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin: auto;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.time {
+		font-size: 22px;
+	}
+	.img-container {
+		margin-bottom: 50px;
+		margin-top: 40px;
+		width: 250px;
+		height: 250px;
+
+	}
+	.img-container img{
+		border-radius: 125px; 
+	}
+	.info-container {
+		margin: auto;
+		width: 650px;
+		margin-bottom: 100px;
+	}
+	.info {
+		text-align: left;
+		margin: auto;
+		width: 550px;
+	}
+	.item {
+		font-size: 30px;
+	}
+	.detail {
+		padding-left: 40px;
+		font-size: 25px;
+	}
+}
