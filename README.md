@@ -1,5 +1,6 @@
 # ForeSummer.github.io
 Personal Page of Guoyang Wei
-# Develop with Grunt!
-
-  npm install
+# Developed with Grunt!
+If you have node.js installed, then run
+	npm install
+Then develop with fun!
