@@ -1,0 +1,225 @@
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato.woff2);
+}
+
+body  {
+	height:100%;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	font-family: lato, Helvetica, "Hiragino Sans GB",Microsoft YaHei;
+}
+
+.drawStartMenu {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background: rgba(255,161,215, 1);
+	margin:0 auto;
+}
+.drawGameImg {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: 0 auto;
+	background: rgba(255,161,215, 1);
+	padding:5%;
+	display: none;
+}
+
+.logo {
+	color: #f7f7f7;
+	width: 200px;
+    margin: 0 auto;
+    font-size: 130px;
+    height: 150px;
+    margin-top: -6%;
+    text-align: center;
+}
+.logo p {
+	transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg);
+	-moz-transform:rotate(-7deg);
+	-webkit-transform:rotate(-7deg);
+	-o-transform:rotate(-7deg); 
+	margin-left: -25%;
+}
+
+.content {
+	margin-left: 3%;
+	margin-right: 3%;
+	text-align: center;
+}
+
+.songs {
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#songchoose {
+	width:100%; 
+	height:150px; 
+	font-size:50px;
+	text-align:center;
+	line-height:150px;
+	color: #f7f7f7;
+}
+
+.song {
+	background-color: rgba(233, 30, 99, 0.5);
+	width:80%;
+	height:50px;
+	border-radius: 10px;
+	-moz-opacity:0.9;
+	opacity: 0.9;
+	text-align:center;
+	color:white;
+	font-size: 30px;
+	line-height:50px;
+	margin-left:20px;
+	cursor:pointer; 
+	border:4px #f7f7f7 solid;
+}
+
+.abled:hover {
+	animation:0.25s menu linear forwards;
+}
+
+.ranks {
+	width:50%;
+	float: right;
+	text-align:center;
+	color:white;
+	font-size:40px;
+}
+
+.rank {
+	width: 80%;
+	border: 4px #f7f7f7 solid;
+	background: rgba(20,158,250, 0.5);
+	height: 300px;
+	border-radius: 10px;
+}
+
+.title {
+	width:74%; 
+	height:150px; 
+	font-size:50px;
+	text-align:center;
+	line-height:150px;
+	color: #f7f7f7;
+}
+
+@keyframes menu{
+	to {
+		width:85%;
+		height:70px;
+		font-size:34px;
+		line-height:70px;
+	}
+}
+
+.progress {
+	width: 30%;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+  	float:left;
+  	height: 20px;
+}
+
+#process_text {
+	background: rgba(233, 30, 99, 0.5);
+	width: 0%;
+	height: 100%;
+}
+
+.score {
+	text-align:center;
+	font-size:30px;
+	width:15%;
+	height:40px;
+	line-height: 40px;
+	float:left;
+	margin-left:5%;
+	color: white;
+}
+
+#points {
+	text-align:center;
+	font-size:30px;
+	width:15%;
+	height:25px;
+	float:left;
+	line-height:40px;
+	margin-left:5%;
+	color: white;
+}
+
+#canvas {
+	float:left;
+	margin-top:20px;
+}
+
+#carom {
+	text-align:center;
+	font-size:50px;
+	width:300px;
+	height:200px;
+	float:left;
+	line-height:200px;
+	color:rgb(255,255,255);
+	overflow: hidden;
+}
+
+.correction {
+	text-align: center;
+	font-size: 50px;
+	width: 300px;
+	height: 200px;
+	float:left;
+	line-height:200px;
+	color: white;
+}
+
+.goback {
+	float: left;
+	color: white;
+	width: 300px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.changing {
+	animation: 0.18s change linear;
+}
+
+.button {
+	margin-left: 46px;
+	margin-top: 40px;
+	width: 200px;
+	height: 80px;
+	background: rgba(0, 147, 245, 0.7);
+	border: 4px white solid;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.button span {
+	line-height: 80px;
+}
+
+@keyframes change {
+	to {
+		color: rgb(255,161,215);
+	}
+}
