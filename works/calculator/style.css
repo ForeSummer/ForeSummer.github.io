@@ -1,0 +1,24 @@
+.outcontainer{
+	margin: auto;
+	width: 1100px;
+}
+table{
+	font-family: Microsoft YaHei;
+	font-size: 60px;
+	color: white;
+	border-spacing: 10px;
+}
+th,td{
+	text-align: center;
+	background-color: #333333;
+	width: 250px;
+	height: 100px;
+	cursor:pointer;
+}
+.input{
+	text-align: right;
+	background-color: #666666;
+	height: 150px;
+	font-size: 80px;
+}
+#num:hover{background-color: #666666};
